@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Category",
+		"options":{
+			"ABC":[
+				"Shoes",
+				"Dresses",
+				"Tops",
+				"Bags",
+				"Shirt"
+			]
+		}
+	},
+	{
+		"name": "Season",
+		"options":[
+			"Summer",
+			"Winter",
+			"Spring",
+			"Autumn"
+		]
+	},
+	{
+		"name": "Size",
+		"options":[
+			"3XS",
+			"2XS",
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"2XL",
+			"3XL",
+			"4XL",
+			"One Size"
+		],
+		"model": "block"
+	},
+	{
+		"name": "Color",
+		"options":[
+			{"name": "Black", "color": "#1f1f1f"},
+			{"name": "White", "color": "#f9f9f9"},
+			{"name": "Blue", "color": "#3b86ff"},
+			{"name": "Red", "color": "#ff6f61"},
+			{"name": "Brown", "color": "#795548"},
+			{"name": "Gray", "color": "#bababab"},
+			{"name": "Cyan", "color": "#17a2b8"}
+		],
+		"model": "color"
+	},
+	{
+		"name": "Brand",
+		"options":[
+			"Brand one",
+			"Brand two",
+			"Brand three",
+			"Brand four",
+			"Brand five",
+			"Brand six"
+		],
+		"model": "search"
+	},
+	{
+		"name": "Price",
+		"options":[
+			{"name":"$10.00 - $49.99", "value_one": 10.0, "value_two": 49.99},
+			{"name":"$50.00 - $99.99", "value_one": 50.0, "value_two": 99.99},
+			{"name":"$100.00 - $199.99", "value_one": 50.0, "value_two": 99.99},
+			{"name":"$200.00 and Up", "value_one": 200.0}
+		],
+		"model": "price"
+	}
+]

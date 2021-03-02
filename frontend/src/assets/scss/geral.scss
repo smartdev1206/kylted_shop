@@ -1,0 +1,237 @@
+.nav-logo {
+	width: 170px;
+}
+
+body {
+	font-family: "Futura Medium";
+
+	b,
+	h1,
+	h2,
+	h3,
+	h4,
+	.font-weight-bold,
+	.btn {
+		font-family: "Futura Heavy";
+	}
+}
+
+.form-group-overflow {
+	max-height: 300px;
+	overflow: auto;
+}
+
+.btn-light {
+	background-color: inherit;
+	border-color: #ddd;
+}
+
+.nav-recommendations {
+	display: flex;
+	flex-direction: row;
+	justify-content: center !important;
+}
+
+.navbar-nav > .nav-item > .nav-link i {
+	font-size: 1.3rem;
+}
+
+.navbar-expand-lg .navbar-light .navbar-nav .nav-link{
+	font-size: 18px;
+}
+
+.flickity-page-dots-progress .flickity-page-dots .dot {
+	background-color: #111;
+}
+
+.design-by-hand-button-bottom {
+	margin: auto;
+	display: block;
+	width: min-content;
+}
+
+.fashion-designers-container .flickity-page-dots {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.bg-dark {
+	background-color: #000 !important;
+}
+
+.text-primary {
+	color: #222 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	transition: 0.5s;
+	&:focus {
+		color: #000;
+	}
+	&:hover {
+		color: #000;
+		transform: translateY(-1px);
+	}
+}
+
+.text-change-div {
+	height: 25px;
+}
+
+@keyframes changeTextPromoBarOne {
+	0% {
+		opacity: 0;
+	}
+	
+	5% {
+		opacity: 1;
+	}
+	
+	20% {
+		opacity: 1;
+	}
+
+	25%{
+		opacity: 0;
+	}
+}
+
+@keyframes changeTextPromoBarTwo {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0;
+	}
+	
+	30% {
+		opacity: 1;
+	}
+	
+	45% {
+		opacity: 1;
+	}
+	
+	50% {
+		opacity: 0;
+	}
+}
+
+@keyframes changeTextPromoBarThree {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+	
+	55% {
+		opacity: 1;
+	}
+	
+	70% {
+		opacity: 1;
+	}
+	
+	75% {
+		opacity: 0;
+	}
+}
+
+@keyframes changeTextPromoBarFour {
+	0% {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 0;
+	}
+	
+	80% {
+		opacity: 1;
+	}
+	
+	95% {
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+}
+
+.text_one,
+.text_two,
+.text_three,
+.text_four {
+	transition: .4s;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	opacity: 0;
+	animation-duration: 10s;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+.text_one{
+	animation-name: changeTextPromoBarOne;
+}
+
+.text_two{
+	animation-name: changeTextPromoBarTwo;
+}
+
+.text_three{
+	animation-name: changeTextPromoBarThree;
+}
+
+.text_four{
+	animation-name: changeTextPromoBarFour;
+}
+
+.bg-pattern{
+	background-image: none!important;
+}
+
+.navbar-light .navbar-nav{
+	.active > .nav-link, 
+	.nav-link.active,
+	.nav-link.show
+	.show{
+		color: #111
+	}
+}
+
+.nav-link.active::before{
+	border-color: #000;
+}
+
+[data-cart-items]::before{
+	background-color: #111
+}
+
+.navbar-brand{
+	margin-bottom: 10px;
+	@media (min-width:992px){
+		line-height: 0;
+	}
+}
+
+.container{
+	position: relative;
+}
+
+.navbar-nav > .dropdown.position-static > .dropdown-menu::before{
+	display: none;
+}

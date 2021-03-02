@@ -1,0 +1,20 @@
+// @font-face {
+  // font-family: 'Futura Medium';
+  // src: local('Futura'), url("./assets/fonts/futur.ttf") format('truetype');
+  // src: local('Futura'), url("./assets/fonts/Futura\ Bold\ font.ttf") format('truetype');
+  // src: local('Futura'), url("./assets/fonts/Futura\ Book\ font.ttf") format('truetype');
+  // src: local('Futura'), url("./assets/fonts/Futura\ Heavy\ font.ttf") format('truetype');
+  // src: local('Futura'), url("./assets/fonts/Futura\ Light\ font.ttf") format('truetype');
+  // src: local('Futura'), url("./assets/fonts/futura\ medium\ bt.ttf") format('truetype');
+  // src: local('Futura'), url("./assets/fonts/Futura\ XBlk\ BT.ttf") format('truetype');
+// }
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: local('Futura'), url("/assets/fonts/futura\ medium\ bt.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Heavy';
+  src: local('Futura'), url("/assets/fonts/Futura\ Heavy\ font.ttf") format('truetype');
+}
